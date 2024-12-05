@@ -1,14 +1,23 @@
 body {
+    /* Define a cor de fundo da página */
     background-color: #f4f4f4;
+    /* Define a largura máxima do conteúdo */
     max-width: 400px;
+    /* Centraliza o conteúdo horizontalmente */
     margin: 50px auto;
+    /* Alinha o texto ao centro */
     text-align: center;
+    /* Define a fonte padrão */
     font-family: Arial, Helvetica, sans-serif;
 }
 
 input, button, select {
+    /* Define a largura dos elementos para ocupar 100% do espaço disponível */
     width: 100%;
+    /* Define o espaçamento interno dos elementos */
     padding: 10px;
+    /* Define o espaçamento externo dos elementos */
     margin: 10px auto;
+    /* Define o modelo de caixa para incluir o padding e border no cálculo da largura */
     box-sizing: border-box;
 }
